@@ -1,6 +1,7 @@
 ## 概要
 　本コードは、TGW VPN Attachmentを作成するCloud Formationテンプレートのサンプルです。<br/>
 以下の通り、TGW VPN AttachmentでTGW～EC2(Catalyst 8000v)間を接続します。<br/>
+※Routerの設定変更は別途実施してください。<br/>
 
 ![topology](https://github.com/yamamototis1105/aws-cfn-tgw-vpn-attachment/assets/114621183/2dc90592-ef49-416a-92f9-e835e6558614)
 
