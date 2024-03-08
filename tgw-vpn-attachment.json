@@ -20,8 +20,12 @@
     "AWS::CloudFormation::Interface" : {
       "ParameterGroups" : [
         {
-          "Label" : { "default" : "Basic Parameter" },
-          "Parameters" : [ "RouterAmiId", "VpnConnectionPsk" ]
+          "Label" : { "default" : "Router Parameter" },
+          "Parameters" : [ "RouterAmiId" ]
+        },
+        {
+          "Label" : { "default" : "VPN Parameter" },
+          "Parameters" : [ "VpnConnectionPsk" ]
         }
       ],
       "ParameterLabels" : {
