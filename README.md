@@ -9,7 +9,7 @@
   * Cloud Formationへアクセスし、「tgw-vpn-attachment.json」をアップロードしてください。
   * スタックパラメータとして、EC2(Catalyst 8000v)のAMI ID、VPN ConnectionのPSKを入力してください。
   * スタックオプションはデフォルトのままで、確認のうえ送信ボタンを押下してください。
-  * VPCへアクセスし、VPN Connectionを選択のうえコンフィグをダウンロードし、Routerへ投入してください。
+  * VPCへアクセスし、VPN Connectionを選択のうえ設定をダウンロードし、Routerへ投入してください。
 <br/>
 
 * スタック削除時
